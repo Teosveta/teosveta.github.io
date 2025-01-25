@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Thea&#39;s Portfolio </title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Teosveta showcasing projects, skills, and achievements.">
+  <meta name="keywords" content="Teosveta, portfolio, web developer, projects, skills">
+  <meta name="author" content="Teosveta">
+  <title>Teosveta - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  
+  <!--
+    - contact 
+  -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure  class="avatar-box">
+          <img src="https://i.imgur.com/fCswtJv.jpeg" alt="Teosveta Velkova" width="80">
+        </figure>
+        
+
+        <div class="info-content">
+          <h1 class="name" title="Teosveta Velkova">Teosveta Velkova</h1>
+
+          <p class="title">Junior Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:vteosveta@gmail.com" class="contact-link">vteosveta@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+359884136999" class="contact-link">+359 884 136 999</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="January 06, 2003">January 06, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Sofia, Bulgaria</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/teosveta-velkova/" class="social-link">
+              <ion-icon name="logo-linkedIn"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Teosveta" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/profile.php?id=100074079156757" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+           Hello👋, I am Thea, and I am passionate about programming and excited to grow in a real work environment where I can develop my skills and contribute to impactful projects. 
+          </p>
+
+          <p>
+             I am a motivated and detail-oriented computer science student at New Bulgarian University. I have a basic understanding of algorithmic concepts, object-oriented programming, and data structures, which I gained through coursework and personal projects. Before university, I studied economics and finance in secondary school, where I developed strong analytical thinking and decision-making skills.
+          </p>
+          
+          <p>
+             In addition to my academic experience, I am an active member of the student council. This role has allowed me to improve my leadership and organizational skills by planning university events and activities.
+          </p>
+          
+          <p>
+             I also value personal growth and balance my studies with activities like yoga, cheerleading, and dance to support my physical and mental well-being. I am excited to join a dynamic team, contribute to meaningful projects, and continue developing both professionally and personally.
+          </p>
+          
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="https://cdn-icons-png.freepik.com/256/8083/8083244.png?semt=ais_hybrid" alt="programing icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Programing</h4>
+
+                <p class="service-item-text">
+                 I am developing my foundational knowledge in writing clean and functional code. I focus on understanding programming concepts and solving simple problems efficiently.  
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="https://cdn.iconscout.com/icon/free/png-256/free-setting-database-icon-download-in-svg-png-gif-file-formats--data-server-cyber-security-vol-2-mono-lineal-pack-seo-web-icons-1118521.png" alt="database icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Database</h4>
+
+                <p class="service-item-text">
+                 I am building a basic understanding of database design and management principles. I practice working with data by creating and querying small-scale databases. 
+                </p>
+              </div>
+
+            </li>
+            
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="https://cdn-icons-png.freepik.com/256/17028/17028049.png?semt=ais_hybrid" alt="testing icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Software Testing</h4>
+
+                <p class="service-item-text">
+                 I am learning the basics of software testing and ensuring code quality. I explore testing techniques to identify and fix errors in programs effectively.  
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="https://cdn-icons-png.freepik.com/256/1454/1454982.png?semt=ais_hybrid" alt="web design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Development</h4>
+
+                <p class="service-item-text">
+                 I am exploring the fundamentals of web development by creating simple and functional projects. I experiment with responsive design to improve user experience.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+          </section>
+        </div>
+      </article>
+
+        
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Informatics, New Bulgarian University</h4>
+
+              <span>2023 - Now</span>
+
+              <p class="timeline-text">
+               Pursuing a comprehensive education in informatics, focusing on advanced lecture-based learning and hands-on training. My studies emphasize practical problem-solving, programming, algorithms, and database fundamentals, preparing me for a professional career in the tech industry.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Economics and Finance, National Secondary School “Sofia”</h4>
+
+              <span>2017 - 2022</span>
+
+              <p class="timeline-text">
+               Graduated with a strong foundation in economics and finance, gaining in-depth knowledge of financial markets and economic principles. This background has equipped me with analytical skills and a practical understanding of financial systems, complementing my technical education.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+       
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My junior skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C++</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">CSS</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+            
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <data value="40">40%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 40%;"></div>
+              </div>
+
+            </li>
+            
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Database Basics</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+            
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Software Testing</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+           
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PROJECTS
+      -->
+
+      <article class="projects" data-page="projects">
+
+  <header>
+    <h2 class="h2 article-title">My Projects</h2>
+  </header>
+
+  <section class="project-collection">
+
+    <ul class="filter-list">
+
+      <li class="filter-item">
+        <button class="active" data-filter-btn>All</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>Programing</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>Database</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>Testing</button>
+      </li>
+      
+      <li class="filter-item">
+        <button data-filter-btn>Web Development</button>
+      </li>
+
+    </ul>
+
+    <div class="filter-select-box">
+
+      <button class="filter-select" data-select>
+
+        <div class="select-value" data-selecct-value>Select category</div>
+
+        <div class="select-icon">
+          <ion-icon name="chevron-down"></ion-icon>
+        </div>
+
+      </button>
+
+      <ul class="select-list">
+
+        <li class="select-item">
+          <button data-select-item>All</button>
+        </li>
+
+        <li class="select-item">
+          <button data-select-item>Programing</button>
+        </li>
+
+        <li class="select-item">
+          <button data-select-item>Database</button>
+        </li>
+
+        <li class="select-item">
+          <button data-select-item>Testing</button>
+        </li>
+        
+        <li class="select-item">
+          <button data-select-item>Web Development</button>
+        </li>
+
+      </ul>
+
+    </div>
+
+
+          <ul class="project-list">
+            
+            <li class="project-item  active" data-filter-item data-category="programing">
+              <a href="https://www.programiz.com/online-compiler/5nS4DhKFUmK7o">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://base.vn/wp-content/uploads/2024/08/to-do-list.webp" alt="To-Do list" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">To-Do list, C++</h3>
+
+                <p class="project-category">Programing</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="testing">
+              <a href="https://www.programiz.com/online-compiler/9ds7uBudOhDt7">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://mattermost.com/wp-content/uploads/2022/04/02_Unit_Testing@2x.png" alt="Unit-Tests, Python" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Unit-Tests, Python</h3>
+
+                <p class="project-category">Testing</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://codepen.io/Teosveta-Velkova/pen/dPbgZJe">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://thumbnails.genially.com/5eee9ca565f52072673d042b/screenshots/a41aa23c-5795-40f3-9243-70c67ecaa854.jpg" alt="Мemory cards" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Мemory cards</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="programing">
+              <a href="https://www.online-python.com/bpyhIzcOTm">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://www.mpl.live/blog/wp-content/uploads/2023/10/Black-Jack.webp" alt="Black Jack" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Black Jack, Python</h3>
+
+                <p class="project-category">Programing</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="testing">
+              <a href="https://www.programiz.com/online-compiler/3hIOudiLRqVMM">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://file-uploads.teachablecdn.com/1f814d5bf0e54428859b8c20cf7721e1/deb491e413c54f6f9c29f43a311c0bf0" alt="Unit-Tests, Java Script" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Unit-Tests, JavaScript</h3>
+
+                <p class="project-category">Testing</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://codepen.io/Teosveta-Velkova/pen/mybzqOG">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://cdn.wccftech.com/wp-content/uploads/2024/07/Apple-Calculator.jpg" alt="Calculator" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Calculator</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="programing">
+              <a href="https://www.programiz.com/online-compiler/8zorHOiWG2z98">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/2x1_NSwitchDS_TheMinesweeperCrewBomberExpedition.jpg" alt="Minesweeper" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Minesweeper, C++</h3>
+
+                <p class="project-category">Programing</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="database">
+              <a href="https://www.programiz.com/online-compiler/8yAJZ0gfPdIrJ">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://img.gptbots.cc/article/en/steps-to-perform-sales-analysis.jpg" alt="Sales Analysis" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sales Analysis</h3>
+
+                <p class="project-category">Database</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="database">
+              <a href="https://www.online-python.com/tLkFeJwN3d">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://technoistuti.in/wp-content/uploads/2023/03/student-management-system-in-python-project.jpg" alt="Student Management System" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Student Management System</h3>
+
+                <p class="project-category">Database</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://www.eventbrite.com/b/bulgaria--%D1%81%D0%BE%D1%84%D0%B8%D1%8F/science-and-tech/">
+
+                <figure class="blog-banner-box">
+                  <img src="https://www.hirethesciencemuseum.com/wp-content/uploads/2022/01/Science-Museum-Future-Tech-MattChungPhoto-ff-hi-res-9-scaled.jpg" alt="Science & Tech events" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Events</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2025">2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Science & Tech events</h3>
+
+                  <p class="blog-text">
+                    in Sofia, Bulgaria
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            
+            <li class="blog-post-item">
+              <a href="https://www.geeksforgeeks.org/how-to-choose-a-programming-language-for-a-project/">
+
+                <figure class="blog-banner-box">
+                  <img src="https://gratasoftware.com/wp-content/uploads/2023/07/Choosing-the-Right-Programming-Language.png" alt="Choose a Programming Language" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Programming</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="Jan 17, 2023">Jan 17, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">How to Choose a Programming Language For a Project</h3>
+
+                  <p class="blog-text">
+                    We need to ask a few questions to ourselves before we make any decision.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            
+            <li class="blog-post-item">
+              <a href="https://news.yale.edu/2021/03/31/machine-learning-economics-and-computer-science-converge">
+
+                <figure class="blog-banner-box">
+                  <img src="https://images.ctfassets.net/2pg6dzbljspe/7AxA2wLrMT8gioQsjQotlT/4bae498cf0cbf9d53829d53cc44670ec/72f7b576-7958-417c-8c9d-197249991201.jpg" alt="Computer Science and Economics" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Machine learning</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="Mar 31, 2021">Mar 31, 2021</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Computer Science and Economics</h3>
+
+                  <p class="blog-text">
+                   Today’s digital economy is blurring the boundaries between computer science and economics.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            
+            <li class="blog-post-item">
+              <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9601636/">
+
+                <figure class="blog-banner-box">
+                  <img src="https://retinalscreenings.com/wp-content/uploads/2022/09/benefits-of-tech-in-healthcare-scaled.jpg" alt="Computer Science in Healthcare" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Technologies for Healthcare</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="Oct 3, 2022">Oct 3, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Computer Science in Healthcare</h3>
+
+                  <p class="blog-text">
+                   Emerging Technologies for Healthcare Management Systems.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://icanstudy.outgrow.us/learner-type-quiz">
+
+                <figure class="blog-banner-box">
+                  <img src="https://dlvkyia8i4zmz.cloudfront.net/8tUPEDRfmbyRGnmjPdAq_Human_Brain_divided.jpeg" alt="Find your learner type" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Learning</p>
+                    
+                    <span class="dot"></span>
+
+                    <time datetime="Nov 10, 2023">Nov 10, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Find your learner type</h3>
+
+                  <p class="blog-text">
+                    Recommendations on what to work on to boost your learning performance the most.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://hbr.org/1993/03/the-discipline-of-teams-2">
+
+                <figure class="blog-banner-box">
+                  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUdTCeYWTnL6JnIcxAlPtUEyFL1DeWoj8TPK7JRcP-KQeQJWqTK3OOoYQ7csqZbCOlm6ADI37ST-gXSctft3F-46KwK4hhrC_dxNFkQ6LkL8vH4SjbDjOzYY1AoKw3DY3U4-ZeQHr5xR-3/s1600/Why+Teamwork+Is+Your+Key+To+Success+-+List+of+Reasons+-+Motivate+Amaze+Be+GREAT.png" alt="Teamwork" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Teamwork</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="March–April 1993">March–April 1993</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Successful Teamwork</h3>
+
+                  <p class="blog-text">
+                     Groups don’t become teams because that is what someone calls them.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d187682.45923789757!2d23.21216324595611!3d42.69551403082613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa8682cb317bf5%3A0x400a01269bf5e60!2sSofia%2C%20Bulgaria!5e0!3m2!1sen!2sus!4v1705725638144!5m2!1sen!2sus"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="vteosveta@gmail.com" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
